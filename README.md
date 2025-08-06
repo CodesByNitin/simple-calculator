@@ -2,6 +2,8 @@
 
 ![Calculator Screenshot](./image.png)
 
+🔗 Live Demo: ##
+
 A clean, responsive calculator built with pure HTML, CSS, and JavaScript.
 
 ## Features
@@ -20,9 +22,25 @@ A clean, responsive calculator built with pure HTML, CSS, and JavaScript.
 - **JavaScript**: Core calculation logic
 - **Media Queries**: Mobile responsiveness
 
+## Usage
+```bash
+## Mouse/Touch
+- Click buttons to input numbers and operations
+- **AC**: All Clear
+- **←**: Backspace
+
+## Keyboard Shortcuts
+
+- **0-9**: Numbers
+- **+-*/**: Operators
+- **Enter**: Equals
+- **Esc**: Clear All
+- **Backspace**: Delete last digit 
+```
 ## Installation
 
 ```bash
 git clone https://github.com/CodesByNitin/simple-calculator.git
 cd simple-calculator
 open index.html
+```
