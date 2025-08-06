@@ -22,6 +22,14 @@ A clean, responsive calculator built with pure HTML, CSS, and JavaScript.
 - **JavaScript**: Core calculation logic
 - **Media Queries**: Mobile responsiveness
 
+## Code Structure
+
+simple-calculator/
+├── index.html      # Main interface
+├── style.css       # Styling
+├── script.js       # Logic
+└── README.md       # Documentation
+
 ## Usage
 ```bash
 ## Mouse/Touch
