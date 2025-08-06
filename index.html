@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input class="display" readonly oninput="adjustfontsize()"></input>
+        <div class="buttons">
+            <button onclick="cleardisplay()" class="operator">AC</button>
+            <button onclick="calcdisplay('%')" class="operator">%</button>
+            <button onclick="backspace()" class="operator">←</button>
+            <button onclick="calcdisplay('/')" class="operator">÷</button>
+            
+            <button onclick="calcdisplay('7')" class="number">7</button>
+            <button onclick="calcdisplay('8')" class="number">8</button>
+            <button onclick="calcdisplay('9')" class="number">9</button>
+            <button onclick="calcdisplay('*')" class="operator">x</button>
+
+            <button onclick="calcdisplay('4')" class="number">4</button>
+            <button onclick="calcdisplay('5')" class="number">5</button>
+            <button onclick="calcdisplay('6')" class="number">6</button>
+            <button onclick="calcdisplay('-')" class="operator">-</button>
+
+            <button onclick="calcdisplay('1')" class="number">1</button>
+            <button onclick="calcdisplay('2')" class="number">2</button>
+            <button onclick="calcdisplay('3')" class="number">3</button>
+            <button onclick="calcdisplay('+')" class="operator">+</button>
+
+            <button onclick="calcdisplay('00')" class="double number">00</button>
+            <button onclick="calcdisplay('0')" class="number">0</button>
+            <button onclick="calcdisplay('.')" class="number">.</button>
+            <button onclick="calculate('=')" class="operator equal">=</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
