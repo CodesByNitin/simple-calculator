@@ -1,6 +1,6 @@
 # Simple-Calculator - Minimalist Web Calculator
 
-![Calculator Screenshot](./screenshot.png)
+![Calculator Screenshot](./image.png)
 
 A clean, responsive calculator built with pure HTML, CSS, and JavaScript.
 
