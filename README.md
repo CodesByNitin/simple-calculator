@@ -23,13 +23,13 @@ A clean, responsive calculator built with pure HTML, CSS, and JavaScript.
 - **Media Queries**: Mobile responsiveness
 
 ## Code Structure
-
+```bash
 simple-calculator/
 ├── index.html      # Main interface
 ├── style.css       # Styling
 ├── script.js       # Logic
 └── README.md       # Documentation
-
+```
 ## Usage
 ```bash
 ## Mouse/Touch
