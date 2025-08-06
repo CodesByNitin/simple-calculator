@@ -2,7 +2,7 @@
 
 ![Calculator Screenshot](./image.png)
 
-🔗 Live Demo: ##
+🔗 Live Demo: https://simple-calculator-peach-ten.vercel.app/
 
 A clean, responsive calculator built with pure HTML, CSS, and JavaScript.
 
