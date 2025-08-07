@@ -33,6 +33,7 @@ body {
     background-color: rgb(24, 44, 25);
     margin-bottom: 20px;
     font-size: 50px;
+    color: black
 }
 
 .buttons {
@@ -182,3 +183,4 @@ button {
         font-size: 11px;
     }
 }
+
